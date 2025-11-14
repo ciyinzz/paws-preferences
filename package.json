@@ -2,7 +2,7 @@
   "name": "paws-preferences",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/ciyinzz/paws-preferences.git",
+  "homepage": "https://ciyinzz.github.io/paws-preferences",
   "dependencies": {
     "framer-motion": "^10.16.4",
     "react": "^18.2.0",
