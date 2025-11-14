@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/paws-preferences/static/css/main.53c93e2f.css",
+    "main.js": "/paws-preferences/static/js/main.f1b52fb0.js",
+    "index.html": "/paws-preferences/index.html",
+    "main.53c93e2f.css.map": "/paws-preferences/static/css/main.53c93e2f.css.map",
+    "main.f1b52fb0.js.map": "/paws-preferences/static/js/main.f1b52fb0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53c93e2f.css",
+    "static/js/main.f1b52fb0.js"
+  ]
+}
