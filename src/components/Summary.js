@@ -1,6 +1,6 @@
 import React from "react";
 
-const Summary = ({ likedCats, totalCats, onRestart }) => {
+const Summary = ({ likedCats, totalCats, onRestart }) => { // Summary component to display results and liked cats
   return (
     <div className="max-w-2xl w-full bg-white rounded-3xl shadow-2xl p-8 text-center">
       <div className="mb-8">

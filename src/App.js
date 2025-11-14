@@ -2,12 +2,12 @@ import React, { useEffect, useState } from "react";
 import CatCard from "./components/CatCard";
 import Summary from "./components/Summary";
 
-function App() {
-  const [cats, setCats] = useState([]);
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [likedCats, setLikedCats] = useState([]);
-  const [isFinished, setIsFinished] = useState(false);
-  const [loading, setLoading] = useState(true);
+function App() { 
+  const [cats, setCats] = useState([]); // Array of cat image URLs
+  const [currentIndex, setCurrentIndex] = useState(0); // Index of the current cat being shown
+  const [likedCats, setLikedCats] = useState([]); // Array of liked cat image URLs
+  const [isFinished, setIsFinished] = useState(false); // Whether the user has finished swiping through all cats
+  const [loading, setLoading] = useState(true); // Loading state for fetching cats
 
   const CAT_COUNT = 15; // Number of cats to show
 
@@ -33,8 +33,8 @@ function App() {
     }
   };
 
-  useEffect(() => {
-    fetchCats();
+  useEffect(() => { // Fetch cats on initial load
+    fetchCats(); 
   }, []);
 
   const handleSwipe = (direction) => {
